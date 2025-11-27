@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Environment Files
+.env
+*.env
+
+# Firebase keys or secret JSON files
+firebase-key.json
+serviceAccountKey.json
+
+# Dropbox cursor file
+dropbox_cursor.txt
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ngrok
+ngrok.yml
+ngrok.log
+
+# Docker / Redpanda
+*.pid
+docker-data/
+docker-compose.override.yml
+
+# Kafka
+kafka-logs/
